@@ -312,6 +312,28 @@ function exc21(n) {
   return x;
 }
 console.log(exc21(4));
+function exc22(n) {
+  let x = 2 * (n - 1) + 1;
+  let dot = "";
+
+  for (let i = n; i <= x; i++) {
+    for (let j = 1; j <= x; j++) {
+      if (j <= i - n) {
+        dot = dot + "-";
+      } else if (j > i - n && j <= x - (i - n)) {
+        dot = dot + "*";
+      } else if (j > x - (i - n)) {
+        dot = dot + "-";
+      }
+    }
+    dot = dot + "\n";
+  }
+
+  console.log(dot);
+  return dot;
+}
+
+console.log(exc22(6));
 
 function exc23(n) {
   let x = 2 * (n - 1) + 1;
