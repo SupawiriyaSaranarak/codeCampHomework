@@ -1,0 +1,59 @@
+.postapp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: pink;
+}
+.add-post-button {
+  height: 40px;
+}
+.postbox-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+}
+
+.postbox {
+width: 800px;
+background-color: rgb(0, 51, 128);
+border-radius: 10px;
+margin: 20px 0;
+padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.postFooter {
+  display: flex;
+  justify-content: space-between;
+}
+.edit-post {
+  margin-right: 40px;
+}
+.title-container {
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 150px;
+}
+.descripton-container {
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 150px;
+}
+.add-button-container {
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 150px;
+}
